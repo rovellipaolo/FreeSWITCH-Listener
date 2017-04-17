@@ -1,0 +1,13 @@
+---
+version: '2'
+services:
+  freeswitch-listener:
+    build: freeswitch-listener
+    restart: always
+    container_name: freeswitch-listener
+    network_mode: host
+    environment:
+      - FREESWITCH_IP=127.0.0.1
+      - FREESWITCH_PORT=8021
+      - FREESWITCH_PASSWORD=YourPasswordHere
+...
