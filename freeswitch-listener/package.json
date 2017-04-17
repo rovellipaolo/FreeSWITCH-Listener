@@ -1,0 +1,20 @@
+{
+	"name": "freeswitch-listener",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"lint": "./node_modules/.bin/eslint -c .eslintrc.yml .",
+		"lint-ci": "npm run lint -- -f checkstyle",
+		"test": "tap tests/*.js"
+	},
+	"devDependencies": {
+		"eslint": "2.10.2",
+		"tap": "6.2.0",
+		"jsmockito": "1.0.5",
+		"mock-require": "1.3.0"
+	},
+	"dependencies": {
+		"modesl": "1.1.9",
+		"winston":"2.3.1"
+	}
+}
