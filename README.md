@@ -3,6 +3,7 @@ FreeSWITCH Listener
 
 Demo FreeSWITCH-based (Node.js) application which uses the Event Socket Library (ESL) in order to listen to a series of VoIP call events and eventually execute commands.
 
+My post for "Making Tuenti" blog: https://medium.com/makingtuenti/developing-applications-for-freeswitch-fccbe75ada81
 
 ## Configuration:
 You need to provide to the demo application your specific FreeSWITCH host and credentials.
